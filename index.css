@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-1 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-1 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-1 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff523b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #642222;
+}
+
+.header {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+/*------------ body --------------*/
+
+.categories{
+  margin: 70px 0;
+}
+
+.col-2 {
+  position: relative;
+  flex-basis: 20%;
+  min-width: 300px;
+  margin-bottom: 30px;
+}
+
+.categories .col-2 img {
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  position: relative;
+  box-shadow: 0 0 15px 0px rgb(255, 255, 255);
+}
+
+.store-title{
+  text-align: center;
+  color: #fcf5e7;
+  text-shadow: 0 0 5px #000;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.small-container1 {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #fcf5e7;
+}
+
+.title::after{
+  content: '';
+  background-color: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.col-3 {
+  flex-basis: 22%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col-3 .featured {
+  box-shadow: 0 0 10px 0px rgb(255, 255, 255);
+  border: px solid #ffffff;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.fa-solid {
+  color: gold;
+}
+
+.col-3 h4, .col-3 p {
+  color: #fcf5e7;
+  margin: 4px 0; 
+}
+
+.col-3:hover{
+  transform: translateY(-10px)
+}
+
+/*---------offer---------*/
+
+.offer {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 80px;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.offer p{
+  color: #ffffff;
+}
+
+.offer h1{
+  color: #ffffff;
+}
+
+/*---------- Testimonials ----------->*/
+
+.testimonial{
+  padding-top: 100px;
+}
+
+.testimonial .col-2{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 15px 0px rgb(255, 255, 255);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.testimonial .col-2:hover{
+  transform: translateY(-10px);
+}
+
+.testimonial p, .testimonial h3 {
+  color: #fcf5e7;
+}
+
+.rating{
+  margin-top: 10px;
+}
+
+/*----------- Footer ------------*/
+
+.footer{
+  margin-top: 80px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+
+.footer .container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.footer p{
+  color: #ffffff;
+}
+
+.footer h3{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1 {
+  flex: 1;
+}
+
+ul {
+  color: #ffffff;
+  list-style-type: none;
+}
+
+
+.footer li {
+  text-decoration: none;
+}
+
+.fa-brands {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.footer hr{
+  border: none;
+  background: #ffffff;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.hamburger-menu{
+  width: 24px;
+  margin-left: 20px;
+  display: none;
+}
+
+/*-----------------media query for menu ---------------*/
+
+@media only screen and (max-width: 800px) {
+
+  nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a{
+    color: #fff;
+  }
+
+  .hamburger-menu{
+    display: block;
+    cursor: pointer;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .row, .offer{
+    text-align: center;
+  }
+
+}
+
+/*-----------all products page----------*/
+
+.row-2{
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select{
+  font-family: 'Poppins', sans-serif;
+  color: #fcf5e7;
+  background: #000;
+  border: 1px solid #ffffff;
+  padding: 5px;
+}
+
+select:focus{
+  outline: none;
+}
+
+.page-btn{
+  margin: 0 auto 80px;
+}
+
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.page-btn span:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+
+/*---------- single products details -----------*/
+.single-product {
+  margin-top: 80px;
+}
+
+.single-product .col-2 img{
+  padding: 0;
+  box-shadow: 0 0 15px 0px rgb(255, 255, 255);
+}
+
+.single-product .col-2{
+  padding: 20px;
+}
+
+input{
+  font-family: 'Poppins', sans-serif;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 8px;
+  width: 100px;
+}

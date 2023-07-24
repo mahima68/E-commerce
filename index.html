@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore.in</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/87616b9277.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  
+<!--------------- Header section------------->
+<div class="header" style="background-image: url('wallpaperflare.com_wallpaper3.jpg');">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img width="150px" src="pictures/hogwartshaven.png"></img>
+      </div>
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="Home">Home</a></li>
+        <li><a href="Products">Products</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Contact">Contact</a></li>
+        <li><a href="Account">Account</a></li>
+      </ul>
+    </nav>
+    <img src="pictures/shopping-bag.png" width="25px" height="25px">
+    <img class="hamburger-menu" src="pictures/hamburger.png" onclick="menutoggle()">
+  </div>
+
+  <div class="row">
+    <div class="col-1">
+      <h1>Welcome to the<br>Wizarding World!</h1>
+      <p>Experience the Magic of Harry Potter - Dive into a World of <br>Witches, Wizards, and Timeless Literary Treasures.</p>
+      <a href="" class="btn">Explore Now &#8594;</a>
+    </div>
+    
+    <div class="col-1">
+      <img src="pictures/howarts-houses.jpg">
+    </div>
+  </div>
+</div>
+</div>
+
+<!------------- featured categories -------------->
+
+<div class="categories">
+  <div class="small-container">
+  <div class="row">
+
+    <div class="col-2">
+      <a href=""><img src="pictures/Wand_shop.jpg"></a>
+      <a href="" class="store-link">
+        <h3 class="store-title">Wand Shop</h3>
+      </a>
+    </div>
+
+    <div class="col-2">
+      <a href=""><img src="pictures/clothing collection.gif"></a>
+      <a href="" class="store-link">
+        <h3 class="store-title">Clothing Collection</h3>
+      </a>
+    </div>
+
+    <div class="col-2">
+      <a href=""><img src="pictures/Sweets_static_card_large.jpg"></a>
+      <a href="" class="store-link">
+        <h3 class="store-title">Sweet Trolley</h3>
+      </a>
+    </div>
+
+    <div class="col-2">
+      <a href=""><img src="pictures/Trunk_card_large.gif"></a>
+      <a href="" class="store-link">
+        <h3 class="store-title">Trunk Station</h3>
+      </a>
+    </div>
+
+  </div>
+ </div>
+</div>
+
+<!------------- featured products -------------->
+
+<div class="small-container1">
+  <h2 class="title">Featured Products</h2>
+
+  <div class="row2">
+    <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/featured1.png">
+      <h4>Personalised Hogwarts<br> Acceptance Letter</h4>
+
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+
+      <p>$25.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+  <div class="col-3">
+      <img class="featured" src="pictures/featured2.png">
+      <h4>Professor Dumbledore's Wand</h4>
+
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+
+      <p>$9.00</p>
+    </div>
+  </div>
+
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/featured3.png">
+      <h4>Chocolate Frog with <br>Personlised Wizard Card</h4>
+
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+
+      <p>$10.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/featured4.png">
+      <h4>Hogwarts School truck</h4>
+
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      
+      <p>$68.00</p>
+    </div>
+  </div>
+</div>
+
+<!------------- latest products -------------->
+
+<h2 class="title">Latest Products</h2>
+
+<div class="row2">
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest1.png" alt="Chamber of Secrets Notebook">
+      <h4>Chamber of Secrets Notebook</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$25.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest2.png" alt="Marauder's Map Socks">
+      <h4>Marauder's Map Socks</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$9.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest3.png" alt="Chamber of Secrets Hoodie">
+      <h4>Chamber of Secrets Hoodie</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$10.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest4.png" alt="Marauder's Map Shopper Tote">
+      <h4>Marauder's Map Shopper Tote</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$68.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest5.png" alt="Marauder's Map Scarf">
+      <h4>Marauder's Map Scarf</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$25.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest6.png" alt="Hogwarts Express Round Mug">
+      <h4>Hogwarts Express Round Mug</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$9.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest7.png" alt="Butterbeer Lunch Bag">
+      <h4>Butterbeer Lunch Bag</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$10.00</p>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col-3">
+      <img class="featured" src="pictures/latest8.png" alt="Marauder's Map Mini Bag">
+      <h4>Marauder's Map Mini Bag</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>$68.00</p>
+    </div>
+  </div>
+</div>
+
+
+<!------------- Offer -------------->
+
+<div class="offer" style="background-image: url('henry-be--Pg63JThyCg-unsplash.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+
+      </div>
+      
+      <div class="col-1">
+        <h1>The Harry Potter Book Collection</h1>
+        <p>Embark on a mesmerizing journey into the wizarding world with this complete Harry Potter bookset. Join Harry, Hermione, and Ron in their epic adventures filled with magic, friendship, and bravery.</p>
+        <a href="" class="btn">Buy Now &#8594;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------- Testimonials ----------->
+
+<div class="testimonial">
+  <div class="small-container1">
+    <div class="row">
+      <div class="col-2">
+        <i class="fa-solid fa-quote-left fa-xl" style="color: #ffffff;"></i>
+        <p>Enchanted by the enchantment! Hogwarts Haven's magical assortment has left me mesmerized.</p>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <img src="">
+        <h3>Ethan Morgan</h3>
+      </div>
+      <div class="col-2">
+        <i class="fa-solid fa-quote-left fa-xl" style="color: #ffffff;"></i>
+        <p>Captivated by the charm! Hogwarts Haven's mystical collection left me spellbound. Can't wait to return for more!</p>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <img src="">
+        <h3>Isabella Blake</h3>
+      </div>
+      <div class="col-2">
+        <i class="fa-solid fa-quote-left fa-xl" style="color: #ffffff;"></i>
+        <p>Magical bliss! Hogwarts Haven's enchanting offerings brought the wizarding world to life. Thrilled with my purchases!</p>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <img src="">
+        <h3>Mia Foster</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------- Footer----------->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>DOWNLOAD THE APP</h3>
+        <div class="app-logo">
+          <img width="140px" src="pictures/android-app-download.webp">
+          <img width="140px" src="pictures/apple-app-download.webp">
+        </div>
+    </div>
+
+      <div class="footer-col-2">
+        <h3>CUSTOMER SERVICE</h3>
+        <ul>
+          <li>Contact Us</li>
+          <li>Track Order</li>
+          <li>Return Order</li>
+          <li>Cancel order</li>
+        </ul>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>ACCOUNTS</h3>
+        <ul>
+          <li>My Account</li>
+          <li>Order History</li>
+          <li>Newsletter</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>SOCIALS</h3>
+        <ul>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </ul>
+      </div>
+    </div>
+    <hr> 
+    <p class="copyright">&copy; 2023 HogwartsHaven. All rights reserved.</p>
+  </div>
+</div>
+
+<!-----------js for toggle menu---------->
+
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight = "0px"
+
+  function menutoggle() {
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px"
+    }
+    else 
+    {
+      MenuItems.style.maxHeight = "0px"
+    }
+  }
+</script>
+
+</body>
+</html>
